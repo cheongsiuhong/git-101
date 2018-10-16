@@ -1,5 +1,5 @@
 ==== Section 1: Command Line
-========
+============================
 
 
 mkdir [directory-name]
@@ -22,7 +22,7 @@ pwd
 
 
 ==== Section 2: Basic Git Commands
-========
+==================================
 
 
 git config --global [extension]
@@ -53,7 +53,7 @@ git log --oneline
 
 
 ==== Git Summary
-========
+=================
 
 Commit: Add/updates [file] to/in the Git repo with a relevant message (finalising)
 
@@ -63,7 +63,7 @@ Basic Git workflow:
 3. Commit [file] to repo
 
 ==== Section 3: Time Travelling
-========
+===============================
 
 git checkout [commit-id]
 	switches workspace to the version at commit-id
@@ -73,4 +73,29 @@ git log --all
 
 git checkout master
 	switches workspace to the most recent commit
+
+==== Section 4: Social Git = git + syncing
+===========================================
+
+git clone [url]
+	downloads the repository from [url]
+
+git push
+	pushes changes to the online repo
+
+==== Section 5: Branching
+=========================
+
+git branch 
+	displays all branches
+
+git branch [name]
+	creates a new branch with name [name]
+
+git checkout [branch-name]
+	changes the working directory to another branch
+
+git diff [source-branch] [destination-branch]
+	displays the changes that would happen if you move from the source to the destination
+
 
