@@ -62,3 +62,15 @@ Basic Git workflow:
 2. Add file to working directory
 3. Commit [file] to repo
 
+==== Section 3: Time Travelling
+========
+
+git checkout [commit-id]
+	switches workspace to the version at commit-id
+
+git log --all
+	shows us all the commits ever made
+
+git checkout master
+	switches workspace to the most recent commit
+
