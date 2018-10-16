@@ -40,4 +40,11 @@ git commit -m "MESSAGE" [filename]
 	moves [filename] from the staging area to the repository
 
 git diff
+	shows us what has changed between our working directory, staging area and repo
+
+git log
+	shows us all the commits we made
+
+git log --oneline
+	shows us all the commits made in oneline
 
