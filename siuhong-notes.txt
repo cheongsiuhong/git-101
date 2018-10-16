@@ -37,4 +37,7 @@ git add [filename]
 
 git commit -m "MESSAGE" [filename]
 	commit changes to the repository
-	moves [filename] from the staging area to the wooden directory
+	moves [filename] from the staging area to the repository
+
+git diff
+
