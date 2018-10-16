@@ -1,6 +1,7 @@
 ==== Section 1: Command Line
 ========
 
+
 mkdir [directory-name]
 	makes a new folder with name [directory-name]
 
@@ -19,8 +20,10 @@ cat [filename]
 pwd
 	displays the folder that you are currently in
 
-==== Section 2: Git Commands
+
+==== Section 2: Basic Git Commands
 ========
+
 
 git config --global [extension]
 	changes global configurations
@@ -47,4 +50,15 @@ git log
 
 git log --oneline
 	shows us all the commits made in oneline
+
+
+==== Git Summary
+========
+
+Commit: Add/updates [file] to/in the Git repo with a relevant message (finalising)
+
+Basic Git workflow:
+1. Make changes to [file]
+2. Add file to working directory
+3. Commit [file] to repo
 
