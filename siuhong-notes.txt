@@ -1,0 +1,16 @@
+==== Section 1: Command Line
+========
+
+mkdir [directory-name]
+	makes a new folder with name [directory-name]
+
+ls
+	displays a list of files and folders in the current directory
+
+cd [directory-name]
+	changes directory into [directory-name]
+
+touch [file.extension]
+	creates a new file with name [file.extension]
+
+cat 
