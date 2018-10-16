@@ -13,4 +13,28 @@ cd [directory-name]
 touch [file.extension]
 	creates a new file with name [file.extension]
 
-cat 
+cat [filename]
+	displays the content of [filename]
+
+pwd
+	displays the folder that you are currently in
+
+==== Section 2: Git Commands
+========
+
+git config --global [extension]
+	changes global configurations
+
+git init
+	initialize a new git repository
+
+git status 
+	tells us the status of our working directory
+
+git add [filename]
+	tells git to start tracking a file
+	moves [filename] to the staging area
+
+git commit -m "MESSAGE" [filename]
+	commit changes to the repository
+	moves [filename] from the staging area to the wooden directory
